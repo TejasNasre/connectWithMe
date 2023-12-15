@@ -24,7 +24,7 @@ export default function Fg() {
       close: false,
       tag: {
         isOpen: true,
-        tagTitle: "Connect With Me🍻",
+        tagTitle: "On Linkedin🍻",
         tagColor: "blue",
       },
       link : "https://in.linkedin.com/in/tejasnasre"
@@ -35,20 +35,32 @@ export default function Fg() {
       close: false,
       tag: {
         isOpen: true,
-        tagTitle: "Connect With Me🙆‍♂️",
+        tagTitle: "On Twitter🙆‍♂️",
         tagColor: "green",
       },
       link : "https://twitter.com/tejas_nasre"
     },
     {
-      description: "I Am A FullStack Web Developer And Ai Enginner",
+      description: "Connect With Me On Instagram",
       filesize: "4 GB",
       close: false,
       tag: {
         isOpen: true,
-        tagTitle: "Hire Me 😁",
+        tagTitle: "On Instagram 😁",
         tagColor: "blue",
       },
+      link : "https://instagram.com/tejas_nasre"
+    },
+    {
+      description: "Connect With Me On Github",
+      filesize: "10 GB",
+      close: false,
+      tag: {
+        isOpen: true,
+        tagTitle: "On Github 😁",
+        tagColor: "blue",
+      },
+      link : "https://github.com/TejasNasre"
     },
   ];
   return (

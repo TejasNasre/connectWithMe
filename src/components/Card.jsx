@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function Card({ data ,referance}) {
   return (
     <>
-      <motion.div drag dragConstraints={referance} whileDrag={{scale : 1.1}} dragTransition={{bounceDamping : 5 ,bounceStiffness : 50}} dragElastic={0.2} className="relative flex-shrink-0 w-60 h-72 rounded-[30px] bg-zinc-900/90 text-white px-7 py-10 overflow-hidden">
+      <motion.div drag dragConstraints={referance} whileDrag={{scale : 1.1}} dragTransition={{bounceDamping : 5 ,bounceStiffness : 50}} dragElastic={0.2} className="relative flex-shrink-0 w-[150px] h-[250px] rounded-[30px] bg-zinc-900/90 text-white px-7 py-10 overflow-hidden sm:w-[175px]">
         <FaFileAlt />
         <p className="text-sm leading-tight mt-5 font-semibold">
           {data.description}
