@@ -16,7 +16,7 @@ export default function Fg() {
         tagTitle: "Give Star💓",
         tagColor: "green",
       },
-      link : "https://github.com/TejasNasre/docsProject"
+      link : "https://github.com/TejasNasre/connectWithMe"
     },
     {
       description: "Connect Me On My Linkedin",
