@@ -4,4 +4,6 @@
 ```
 git clone "https://github.com/TejasNasre/docsProject.git"
 ```
-
+```
+npm run dev
+```
