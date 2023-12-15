@@ -2,6 +2,7 @@ import { FaFileAlt } from "react-icons/fa";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { IoIosClose } from "react-icons/io";
 import { motion } from "framer-motion"
+import { Link } from "react-router-dom";
 
 export default function Card({ data ,referance}) {
   return (
@@ -26,7 +27,7 @@ export default function Card({ data ,referance}) {
             <div
               className={`w-full py-3 ${data.tag.tagColor == 'blue' ? 'bg-blue-600' : 'bg-green-600'} flex justify-center items-center`}
             >
-              <h3 className="text-sm font-semibold">{data.tag.tagTitle}</h3>
+            <Link to={data.link}><h3 className="text-sm font-semibold">{data.tag.tagTitle}</h3></Link>
             </div>
           )}
         </div>

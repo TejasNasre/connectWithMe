@@ -16,6 +16,7 @@ export default function Fg() {
         tagTitle: "Give Star💓",
         tagColor: "green",
       },
+      link : "https://github.com/TejasNasre/docsProject"
     },
     {
       description: "Connect Me On My Linkedin",
@@ -26,6 +27,7 @@ export default function Fg() {
         tagTitle: "Connect With Me🍻",
         tagColor: "blue",
       },
+      link : "https://in.linkedin.com/in/tejasnasre"
     },
     {
       description: "Connect With Me On Twitter",
@@ -36,6 +38,7 @@ export default function Fg() {
         tagTitle: "Connect With Me🙆‍♂️",
         tagColor: "green",
       },
+      link : "https://twitter.com/tejas_nasre"
     },
     {
       description: "I Am A FullStack Web Developer And Ai Enginner",
@@ -52,7 +55,7 @@ export default function Fg() {
     <>
       <div ref={ref} className="w-full h-full fixed top-0 left-0 z-[3] flex gap-10 flex-wrap p-5">
         {data.map((item, index) => (
-          <Card data={item} referance={ref} />
+          <Card data={item} referance={ref} key={index}/>
         ))}
       </div>
     </>
